@@ -7,6 +7,7 @@ header,main{
     width: 1440px;
     margin: 0 auto;
     border: 1px solid red;
+    font-family: 'Mulish', sans-serif;
 }
 
 nav{
@@ -73,7 +74,7 @@ nav li a{
     font-weight: 400;
     margin-bottom: 64px;
 }
-.text{
+.text,.c-y-d-p ,.w-c-u-p{
     color:rgba(19, 19, 24, 0.70) ;
     font-size: 16px;
     font-weight: 400;
@@ -120,6 +121,15 @@ nav li a{
     padding-right: 135px ;
     padding-left: 135px;
 }
+.title ,.c-y-d-t ,.w-c-u-t {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
 .o-p-t-d{
     color: #131318;
     font-size: 40px;
@@ -131,4 +141,73 @@ nav li a{
 .o-p-t-d li{
     padding-left: 20px;
     list-style: none;
+}
+/* cyd */
+.c-y-d{
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.c-y-d-t{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+.c-y-d-p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+   
+}
+.row{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    
+}
+.w-c-u-t{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 24px;
+    
+}
+.w-c-u-p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+.row-1{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.box-1{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-left: 135px;
+}
+.box-2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-right: 135px;
+}
+.row-2{
+    display: flex;
+    justify-content: center;
+}
+.box-3{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-bottom: 100px;
 }
