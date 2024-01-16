@@ -225,3 +225,144 @@ nav li a{
     font-weight: 800;
     
 }
+@media screen and (max-width:600px){
+    header,main{
+        width: 370px;
+    }
+    nav{
+        flex-direction: column;
+        
+        
+    }
+    .nav-title{
+        margin-left: 4px;
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .banner{
+        width: 350px;
+        margin-left: 14px;
+    }
+    .explore{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .explore-box{
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        height: 190px;
+        
+    }
+    .w-go{
+        width: 255px;
+        height: 72px;
+        border-radius: 8px;
+        background: #FFF;
+    }
+    .btn{
+        width: 270px;
+        height: 72px;
+    }
+    .o-p-t{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .title{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .opti{
+        width: 335px;
+        height: 342px;
+        
+    }
+    .c-y-d{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .c-y-d-t{
+        margin-top: 20px;
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .c-y-d-p{
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+    }
+    .row{
+        width: 335px;
+        flex-direction: column;
+        
+    }
+    .maldives,.nextmal,.lanka,.n-a,.kashmir,.bd,.bandarban{
+        width: 335px;
+        height: 176px;
+    }
+   
+    .w-c-u-t{
+        margin-top: 10px;
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .w-c-u-p{
+        
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+    }
+    .row-1{
+        flex-direction: column;
+        
+        
+    }
+    .box-1,.box-2,.box-3{
+        width: 275px;
+        height: 289px;
+        margin-left: 15px;
+        margin-right: 10px;
+        padding-right: 32px;
+
+       
+    }
+}
