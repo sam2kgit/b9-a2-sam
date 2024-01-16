@@ -238,32 +238,58 @@ nav li a{
     height: 500px;
     background-repeat: no-repeat;
     margin-bottom: 24px;
+    padding-top: 30px;
     
     
 }
+
 .pic2{
     height: 500px;
     background-repeat: no-repeat;
     margin-bottom: 24px;
     background-image: url('../Images/Group\ 40.png');
+    padding-top: 30px;
 }
 .pic3{
     background-image: url('../Images/Group\ 39.png');
     height: 500px;
     background-repeat: no-repeat;
     margin-bottom: 24px;
+    padding-top: 30px;
     
 }
-.pic1-box{
+.pic1-box,.pic2-box{
     width: 579px;
     height: 389px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
-    margin-left: 535px;
-    
+    margin-left: 500px;
+    padding-left: 50px;
+      padding-top: 50px;
 }
+.pic1-box-price,.pic2-box-price{
+    margin-top: 80px;
+    margin-bottom: 34px;
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.frame-box1,.frame-box2{
+    display: flex;
+    gap: 20px;
+}
+.pic2-box{
+    margin-left: 40px;
+}
+.sa{
+    margin-left: 500px;
+}
+
 
 .g-t{
     margin-top: 150px;
@@ -419,20 +445,6 @@ footer{
     font-weight: 300;
     line-height: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -669,7 +681,15 @@ footer{
         margin-left: 20px;
         margin-bottom: 24px;
     }
-   .pic1-box{
-    visibility: hidden;
-   }
+    .sa{
+        margin-left: 0px;
+        width: 200px;
+        height: 50px;
+    }
+    .pic1-box,.pic2-box{
+        visibility: hidden;
+        
+   } 
+
+
 }
