@@ -190,6 +190,8 @@ nav li a{
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     margin-left: 135px;
+    padding-left: 32px;
+    padding-top: 32px;
 }
 .box-2{
     width: 573px;
@@ -198,6 +200,8 @@ nav li a{
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     margin-right: 135px;
+    padding-left: 32px;
+    padding-top: 32px;
 }
 .row-2{
     display: flex;
@@ -210,4 +214,14 @@ nav li a{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     margin-bottom: 100px;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+.box-title{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    
 }
