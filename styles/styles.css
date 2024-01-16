@@ -669,5 +669,7 @@ footer{
         margin-left: 20px;
         margin-bottom: 24px;
     }
-
+   .pic1-box{
+    visibility: hidden;
+   }
 }
